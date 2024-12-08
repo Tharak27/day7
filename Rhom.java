@@ -1,8 +1,12 @@
+
 import java.util.*;
 public class Rhom{
     public static void main(String[] args)
     {
-        int n=5;
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if(n%2==1)
+        n-=1;
         for(int i=0;i<=n;i++)
         {
             for(int j=0;j<n;j++)
